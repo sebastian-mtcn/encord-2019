@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../iconos/fonts/icomoon.eot?ugkvhh');
+  src:  url('../iconos/fonts/icomoon.eot?ugkvhh#iefix') format('embedded-opentype'),
+    url('../iconos/fonts/icomoon.ttf?ugkvhh') format('truetype'),
+    url('../iconos/fonts/icomoon.woff?ugkvhh') format('woff'),
+    url('../iconos/fonts/icomoon.svg?ugkvhh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}
+
+/*inicio estilos*/
+
+.header {
+  height: 100vh;
+  background-color: #8CDE54;
+}
+
+.cont-video {
+  height: 90vh;
+  width: 100%;
+}
+
+.video {
+  height: 90vh;
+  width: 100%;
+}
+
+.btn-bajar {
+ color: rgb(40, 40, 40);
+ text-decoration: none;
+ /*background-color: red;*/
+ /*padding: 0 48% 0 48%;*/
+ /*line-height: 1em;*/
+ /*padding-top: 2%;*/
+ padding-right: 30%;
+ padding-left: 30%;
+ font-size: 35pt;
+}
+.cont-btn-bajar {
+  height: 10vh;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(66,66,66,1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(66,66,66,1);
+  box-shadow: 0px 0px 7px 0px rgba(66,66,66,1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cont-btn-bajar:hover {
+  background-color: rgba(0,0,0,0.2);
+  font-size: 45pt;
+}
+
+.cont-btn-bajar a:hover {
+  color: white;
+}
+
+.logo {
+  height: 100vh;
+  width: 100%;
+  background-color: #8CDE54;
+}
+
+.cont-logo {
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  max-height: 80%;
+  min-height: 30%;
+  margin: auto;
+}
+
+.slider {
+  height: 100vh;
+  width: 100%;
+  background-color: #8CDE54;
+}
+
+.cont-slider {
+  height: 90vh;
+  width: 100%;
+  background-color: white;
+}
+
+.valores{
+  background-color: #8CDE54;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.enlace{
+  background-color: #8CDE54;
+  text-align: center;
+  height: 100vh;
+}
+
+.derechos{
+  background: #8CDE54;
+  height: 100vh;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+.derechos a{
+    text-decoration: none;
+    color: green;
+  }
+
+.derechos-titulo {
+  padding-top: 25%;
+  /*padding-bottom: 30%;*/
+}
+
+.enlacefin{
+  height: 90vh;
+}
+
+.derechosfin{
+  height: 10vh;
+  background-color: #8cde54;
+}
